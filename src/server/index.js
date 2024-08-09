@@ -13,7 +13,7 @@ const rootPath = path.resolve(__dirname, '../../public')
 
 exports.defaultConfig = function () {
   return {
-    host: '127.0.0.1',
+    host: '0.0.0.0',
     port: 10000,
     channel: 'diceiodef',
     engine: engines.RPG_DICE_ROLLER,
